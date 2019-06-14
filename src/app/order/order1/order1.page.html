@@ -1,0 +1,53 @@
+<ion-header no-border>
+	<ion-toolbar>
+		<ion-buttons slot="primary">
+			<ion-button class="menuButton">Menu</ion-button>
+			<ion-button class="menuButton">About Us</ion-button>
+			<ion-button class="menuButton">Contact Us</ion-button>
+		</ion-buttons>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content>
+		<ion-grid>
+			<ion-row>
+				
+				<ion-col size="9">
+				
+					<!-- Title and Description Parent Container -->
+					<ion-row>
+						<ion-col>
+							
+							<!-- Title -->
+							<ion-row>	
+								<ion-col class="orderItemTitle">
+									Beef Samosa
+								</ion-col>
+							</ion-row>
+							
+							<!-- Description -->
+							<ion-row>
+								<ion-col size="9" class="orderItemDescription">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Augue lacus viverra vitae congue eu consequat ac felis. Adipiscing bibendum est ultricies integer quis auctor. Egestas purus viverra accumsan in nisl nisi scelerisque. Aliquet risus feugiat in ante. Sed nisi lacus sed viverra tellus in. Magna eget est lorem ipsum dolor sit amet consectetur adipiscing. Pellentesque sit amet porttitor eget dolor morbi non arcu risus. Id volutpat lacus laoreet non curabitur gravida arcu ac. Viverra aliquet eget sit amet tellus cras.
+								</ion-col>
+							</ion-row>
+							
+							<ion-row>
+								<ion-col>
+									<ion-button (click)="addToCart('Beef Samosa')">Add to Cart</ion-button>
+								</ion-col>
+							</ion-row>
+						</ion-col>
+					</ion-row>
+				</ion-col>
+				
+				<ion-col size="3" class="border">
+					<ion-row>
+						<ion-col>
+							Order Details
+						</ion-col>
+					</ion-row>
+				</ion-col>
+			</ion-row>
+		</ion-grid>
+</ion-content>

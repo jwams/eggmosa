@@ -1,1 +1,44 @@
+.flex-container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 
+.flex-element {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	
+}
+
+.placeOrderArea {
+	border-style: solid;
+	border-weight: 1px;
+	border-radius: 15px;
+	border-color: black;
+	padding: 60px 400px 60px 400px;
+}
+
+.placeOrderTitle {
+	font-weight: bold;
+	font-size: 36px;
+}
+
+.placeOrderButton {
+	text-transform: none;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.menuButton {
+	font-size: 28px;
+	text-transform: none;
+	padding: 0 10px;
+	margin-top: 10px;
+}
